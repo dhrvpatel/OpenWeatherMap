@@ -19,7 +19,6 @@ public class Weather {
             "http://api.openweathermap.org/data/2.5/weather?lat=%s&lon=%s&units=metric";
 
     private static final String OPEN_WEATHER_MAP_API = "ecf0000ca8fd06dc2ace78f0376e93a2";
-    // Insert your Weather API Here
 
     public interface AsyncResponse {
 
@@ -74,8 +73,6 @@ public class Weather {
             } catch (JSONException e) {
 
             }
-
-
 
         }
     }
